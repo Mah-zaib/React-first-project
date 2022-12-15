@@ -1,0 +1,46 @@
+.main{
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+}
+.form{
+    box-sizing: border-box;
+       
+    /* position: absolute; */
+    width: 500px;
+    height: 600px;
+    left: 90px;
+    top: 80px;
+    border: 5px solid gray;
+    background: #FFFFFF;
+}
+.form .title{
+    display: flex;
+    align-items: center;
+}
+.image{
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 500px;
+    height: 600px;
+    left: 536px;
+    background: #FFFFFF;
+    border: 5px solid gray;
+    
+
+}
+textarea{
+    width: 475px;
+    height: 60px;
+}
+select{
+    width:484px ;
+    height:50px ;
+
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    
+}
